@@ -1,0 +1,48 @@
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.header.light {
+    background-color: #f0f0f0;
+}
+
+.header.dark {
+    background-color: #222;
+}
+
+.navbar-brand.light {
+    color: #f0f0f0 !important;
+}
+
+.card.dark {
+    background: #1b1b1b !important;
+    color: white;
+}
+
+.list-group-item.dark {
+    background: #1b1b1b !important;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .header__container, .form__container, .list__container {
+        width: 100% !important;
+    }
+
+    .sidebar__container {
+        width: 30% !important;
+        word-break: break-all;
+    }
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

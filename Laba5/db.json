@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@example.com",
+        "password": "admin"
+      }
+    ],
+    "feedbacks": [
+      {
+        "id": 1,
+        "author": "admin@example.com",
+        "message": "Первое тестовое сообщение",
+        "date": "2023-05-15T10:30:00Z"
+      }
+    ]
+  }
+  
